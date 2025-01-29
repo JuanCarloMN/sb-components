@@ -50,3 +50,12 @@ export const CustomColor: Story = {
         allCaps: false
     }
 };
+
+export const CustomBackgroundColor: Story = {
+    args: {
+        label: 'Custom Background color label',
+        size: 'h1',
+        color: 'text-tertiary',
+        allCaps: false
+    }
+};
