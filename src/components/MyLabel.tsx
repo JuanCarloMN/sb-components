@@ -1,6 +1,6 @@
 import './MyLabel.css';
 
-interface Props {
+export interface Props {
     /**
      * Text to display
      */
@@ -40,7 +40,6 @@ export const MyLabel = ({
     fontColor,
     backgroundColor = 'transparent'
 }: Props) => {
-    const caps = allCaps ? 'text-transform: uppercase' : 'text-transform: none';
 
     return (
         <span 
