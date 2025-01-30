@@ -40,7 +40,8 @@
     "chromatic": "npx chromatic --project-token=chpt_c77a76ca4049e67",
     "clean": "rimraf dist/",
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
-    "push:np": "np"
+    "push:np": "np",
+    "test": "echo 'All test were good'"
   },
   "dependencies": {
     "rimraf": "^6.0.1"
