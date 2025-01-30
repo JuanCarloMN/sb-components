@@ -39,7 +39,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_c77a76ca4049e67",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:np": "np"
   },
   "dependencies": {
     "rimraf": "^6.0.1"
@@ -63,6 +64,7 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "eslint-plugin-storybook": "^0.11.2",
     "globals": "^15.14.0",
+    "np": "^10.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "storybook": "^8.5.2",
